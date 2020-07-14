@@ -1,26 +1,26 @@
 
 ```
-??? build                      // ????��
-??? mock                       // ??mock.js????Mock,???????
-??? src                        // ???
-?�� ??? api                    // ????
-?�� ??? assets                 // ?? ???????
-?�� ??? components             // ??????
-?�� ??? icons                  // ???? svg icons
-?�� ??? router                 // ??
-?�� ??? store                  // ?? store??
-?�� ??? styles                 // ????
-?�� ??? utils                  // ??????
-?�� ??? vendor                 // ??vendor
-?�� ??? views                  // view
-?�� ??? App.vue                // ????
-?�� ??? main.js                // ?? ???? ????
-?   ??? permission.js          // ????
-??? tests                      // ????
-??? .editorconfig              // EditorConfig????????????IDE????????????????????
-??? .babelrc                   // babel-loader ?????????ES6???????????
-??? eslintrc.js                // eslint ???
-??? .gitignore                 // git ???
-??? .jest.config               // ????????????????
-??? package.json               // package.json
+├──  build                       // 构建相关  
+├──  mock                        // 使用mock.js构建Mock数据前后端分离开发
+├──  src                         // 源代码 
+├──  ├──  api                    // 所有请求
+├──  ├──  assets                 // 主题 字体等静态资源
+├──  ├──  components             // 全局公用组件
+├──  ├──  icons                  // 项目所有 svg icons
+├──  ├──  router                 // 路由
+├──  ├──  store                  // 全局 store管理
+├──  ├──  styles                 // 全局样式
+├──  ├──  utils                  // 全局公用方法 
+├──  ├──  vendor                 // 公用vendor
+├──  ├──  views                  // view
+├──  ├──  App.vue                // 入口页面
+├──  ├──  main.js                // 入口 加载组件 初始化等
+├──  ├──  permission.js          // 权限管理
+├──  tests                       // 前端测试
+├──  .editorconfig               // 
+├──  .babelrc                    // babel-loader编译es6
+├──  eslintrc.js                 // eslint,提供不同IDE统一代码规范
+├──  .gitignore                  // git,git忽略文件 
+├──  .jest.config                // jest前端测试
+├──  package.json                // package.json
 ```
