@@ -1,4 +1,14 @@
+## 项目构建
+获取源码
+>`git clone https://github.com/wangpengliang815/vue.admin.sample.git`
 
+安装npm依赖包
+> `npm install` 
+
+运行
+> `npm run dev`
+
+##  项目结构
 ```
 ├──  build                       // 构建相关  
 ├──  mock                        // 使用mock.js构建Mock数据前后端分离开发
