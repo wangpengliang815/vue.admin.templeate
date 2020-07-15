@@ -27,8 +27,8 @@
 ├──  ├──  main.js                // 入口 加载组件 初始化等
 ├──  ├──  permission.js          // 权限管理
 ├──  tests                       // 前端测试
-├──  .editorconfig               // 
-├──  .babelrc                    // babel-loader编译es6
+├──  .editorconfig               // 功能优于Eslint，主要用来进行代码风格控制
+├──  .babelrc                    // babel-loader编译es6,打包压缩等功能
 ├──  eslintrc.js                 // eslint,提供不同IDE统一代码规范
 ├──  .gitignore                  // git,git忽略文件 
 ├──  .jest.config                // jest前端测试
