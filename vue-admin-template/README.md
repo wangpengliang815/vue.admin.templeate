@@ -33,3 +33,11 @@
 ├──  .jest.config                // jest前端测试
 ├──  package.json                // package.json
 ```
+## 涉及知识点
+- vue2.x
+- vuex
+- element ui
+- mock.js 
+- axios
+- vue-cli
+- vue-router
