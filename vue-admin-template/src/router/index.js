@@ -89,6 +89,18 @@ export const constantRoutes = [
       }
     ]
   },
+  {
+    path: '/authority',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'Authority',
+        component: () => import('@/views/authority/index'),
+        meta: { title: '登录鉴权', icon: 'el-icon-lollipop' }
+      }
+    ]
+  },
 
   {
     path: '/nested',
