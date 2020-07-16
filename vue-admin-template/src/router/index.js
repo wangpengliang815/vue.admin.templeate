@@ -90,18 +90,29 @@ export const constantRoutes = [
     ]
   },
   {
-    path: '/authority',
+    path: '/drawer',
     component: Layout,
     children: [
       {
         path: 'index',
-        name: 'Authority',
-        component: () => import('@/views/authority/index'),
-        meta: { title: '登录鉴权', icon: 'el-icon-lollipop' }
+        name: 'Drawer',
+        component: () => import('@/views/drawer/index'),
+        meta: { title: '抽屉', icon: 'el-icon-lollipop' }
       }
     ]
   },
-
+  {
+    path: '/tabs',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        name: 'Tabs',
+        component: () => import('@/views/tabs/index'),
+        meta: { title: '选项卡', icon: 'el-icon-bank-card' }
+      }
+    ]
+  },
   {
     path: '/nested',
     component: Layout,
