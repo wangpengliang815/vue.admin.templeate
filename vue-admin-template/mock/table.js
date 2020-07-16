@@ -3,9 +3,9 @@ const Mock = require('mockjs')
 const noPageData = Mock.mock({
   'items|5': [{
     id: '@id',
-    title: '@sentence(1, 5)',
+    title: '@csentence(1, 4)',
     'status|1': ['published', 'draft', 'deleted'],
-    author: '@sentence(1, 3)',
+    author: '@csentence(1, 3)',
     display_time: '@datetime',
     pageviews: '@integer(300, 5000)'
   }]
