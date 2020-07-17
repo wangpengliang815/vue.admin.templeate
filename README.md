@@ -1,4 +1,4 @@
-## 项目构建
+## 获取源码
 获取源码
 >`git clone https://github.com/wangpengliang815/vue.admin.sample.git`
 
@@ -12,6 +12,7 @@
 ```
 ├──  build                       // 构建相关  
 ├──  mock                        // 使用mock.js构建Mock数据前后端分离开发
+├──  public                      // 首页模板
 ├──  src                         // 源代码 
 ├──  ├──  api                    // 所有请求
 ├──  ├──  assets                 // 主题 字体等静态资源
