@@ -61,7 +61,7 @@ export default {
     width: 100%;
     &.mobile.openSidebar{
       position: fixed;
-      top: 0;
+      top:0;
     }
   }
   .drawer-bg {
