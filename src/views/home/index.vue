@@ -1,22 +1,33 @@
 <template>
   <div class="home-container">
-    <div class="home-text">name: {{ name }}</div>
-
-    <h2>这里是登录后的首页面</h2>
+    <div class="home-text">
+      {{ $store.state.settings.showSettings }}
+      {{ $store.state.settings.sidebarLogo }}
+      {{ $store.state.settings.fixedHeader }}
+    </div>
+    <hr />
+    <div class="home-text">
+      {{ $store.state.app.sidebar }}
+      {{ $store.state.app.device }}
+    </div>
+    <hr />
+    <div class="home-text">
+      {{ $store.state.user.token }}<br>
+      {{ $store.state.user.name }}<br>
+      {{ $store.state.user.avatar }}
+    </div>
   </div>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import { mapGetters } from "vuex";
 
 export default {
-  name: 'Home',
+  name: "Home",
   computed: {
-    ...mapGetters([
-      'name'
-    ])
+    ...mapGetters(["name"])
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>

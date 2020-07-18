@@ -1,14 +1,14 @@
-import Vue from 'vue';
-import 'normalize.css/normalize.css';
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-import locale from 'element-ui/lib/locale/lang/en';
-import '@/styles/index.scss';
-import App from './App';
-import store from './store';
-import router from './router';
-import '@/icons';
-import '@/utils/permission';
+import Vue from "vue";
+import "normalize.css/normalize.css";
+import ElementUI from "element-ui";
+import "element-ui/lib/theme-chalk/index.css";
+import locale from "element-ui/lib/locale/lang/en";
+import "@/styles/index.scss";
+import App from "./App";
+import store from "./store";
+import router from "./router";
+import "@/icons";
+import "@/utils/permission";
 
 /**
 *如果您不想使用模拟服务器
@@ -19,8 +19,8 @@ import '@/utils/permission';
 *请在上线前删除!!!
 */
 
-if (process.env.NODE_ENV === 'production') {
-  const { mockXHR } = require('../mock');
+if (process.env.NODE_ENV === "production") {
+  const { mockXHR } = require("../mock");
   mockXHR();
 }
 
@@ -33,8 +33,8 @@ Vue.use(ElementUI);
 Vue.config.productionTip = false;
 
 new Vue({
-  el: '#app',
+  el: "#app",
   router,
   store,
   render: h => h(App)
-})
+});

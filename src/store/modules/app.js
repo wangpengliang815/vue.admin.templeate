@@ -1,10 +1,16 @@
 import Cookies from 'js-cookie'
 
+/**
+ * 页面相关设置，侧边栏
+ * sidebarStatus=1  开启
+ * sidebarStatus=0  关闭
+ */
 const state = {
   sidebar: {
-    opened: Cookies.get('sidebarStatus') ? !!+Cookies.get('sidebarStatus') : true,
+    opened: Cookies.get('sidebarStatus') ? !! + Cookies.get('sidebarStatus') : true,
     withoutAnimation: false
   },
+  // 标识是移动端还是PC端,做适配要用
   device: 'desktop'
 }
 

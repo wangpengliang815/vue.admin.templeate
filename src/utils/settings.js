@@ -6,5 +6,5 @@ module.exports = {
   /**
    * 是否在侧边栏显示Logo
    */
-  sidebarLogo: false
+  sidebarLogo: true
 };
