@@ -1,5 +1,6 @@
 import { validUsername, isExternal } from '@/utils/validate.js'
 
+// 针对要测试的方法
 describe('Utils:validate', () => {
   it('validUsername', () => {
     expect(validUsername('admin')).toBe(true)
