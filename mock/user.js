@@ -13,7 +13,7 @@ const users = {
     roles: ['admin'],
     introduction: 'I am a super administrator',
     avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
-    name: '登录信息返回的名字'
+    name: ' super administrator'
   },
   'editor-token': {
     roles: ['editor'],
