@@ -53,7 +53,7 @@
 
 **index.html**：主页，项目入口
 
-`index.html` 为项目访问的首站点，一般我们只定义一个空的根节点，在`main.js`里面定义的实例将挂载到根节点下，内容都通过vue组件进行填充
+`index.html` 为项目访问的首站点，一般只定义一个空的根节点，在`main.js`里面定义的实例将挂载到根节点下，内容都通过vue组件进行填充
 
 
 **App.vue**：根组件
@@ -117,27 +117,8 @@ main.js主要是引入vue框架，根组件及路由设置，并且定义vue实�
 
 在router文件夹下，有一个index.js文件，即为路由配置文件
 
-**示例**：
 
-```
-import Vue from 'vue'    /*引入vue框架*/
-import Router from 'vue-router'   /*引入路由依赖*/
-import Hello from ‘@、components/Hello’    /*引入页面组件，命名为Hello*/
-
-Vue.use(Router)   /*使用路由依赖*/
-
-/*定义路由*/
-export default new Router({
-  router:[
-   {
-       path: '/ ',
-       name: 'Hello',
-       component: Hello
-    }
- ]
-})    
-```
-这里定义了路径为'/'的路由，该路由对应的页面是Hello组件，当在浏览器url访问http://localhost:8080/#/时就渲染的Hello组件。类似的，可以设置多个路由，‘/index’,'/list'之类的，当然首先得引入该组件，再为该组件设置路由
+这里定义了路径为'/'的路由，该路由对应的页面是Hello组件，当在浏览器url访问 http://localhost:8080 时就渲染的Hello组件。类似的，可以设置多个路由，‘/index’,'/list'之类的，当然首先得引入该组件，再为该组件设置路由
 
 ## 源码分析
 
