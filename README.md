@@ -123,3 +123,5 @@ main.js主要是引入vue框架，根组件及路由设置，并且定义vue实�
 `npm run build:stage` 
 
 `npm run build:prod` 
+
+## 部署
