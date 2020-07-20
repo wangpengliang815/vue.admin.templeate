@@ -38,10 +38,8 @@
 ├──  .eslintignore               // （配置）eslint 检查中需忽略的文件（夹）
 ├──  .eslintrc.js                // eslint,提供不同IDE统一代码规范
 ├──  .gitignore                  //（配置）在上传中需被 Git 忽略的文件（夹）
-├──  .travis.yml                 // 
 ├──  .babelrc                    // babel 转码配置
-├──  jest.config.js              // 
-├──  jsconfig.json               // 
+├──  jest.config.js              // 单元测试相关配置
 ├──  package.json                // 本项目的配置信息，启动方式
 ├──  package-lock.json           // 记录当前状态下实际安装的各个npm package的具体来源和版本号
 ├──  postcss.config              //
