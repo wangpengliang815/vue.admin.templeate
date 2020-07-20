@@ -1,3 +1,4 @@
+<!-- 侧边栏Logo -->
 <template>
   <div class="sidebar-logo-container" :class="{'collapse':collapse}">
     <transition name="sidebarLogoFade">

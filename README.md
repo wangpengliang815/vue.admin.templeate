@@ -97,19 +97,31 @@ main.js主要是引入vue框架，根组件及路由设置，并且定义vue实�
 在router文件夹下，有一个index.js文件，即为路由配置文件
 
 ## vue-cli
-> 参考 https://cli.vuejs.org/zh/guide/ ，vuecli 3.0 和 2.0 区别参考：https://zhuanlan.zhihu.com/p/154106807
+参考
+- https://cli.vuejs.org/zh/guide/ 
+> vuecli 3.0 和 2.0 区别参考
+- https://zhuanlan.zhihu.com/p/154106807
 
 ## vuex
-> 参考 https://vuex.vuejs.org/zh/ 、https://www.jianshu.com/p/2e5973fe1223 、https://www.cnblogs.com/junjun-001/p/12546023.html
+参考
+- https://vuex.vuejs.org/zh/ 
+- https://www.jianshu.com/p/2e5973fe1223 
+- https://www.cnblogs.com/junjun-001/p/12546023.html
 
 
 ## mock.js 
-> 参考 https://www.cnblogs.com/tzm-001/p/10382534.html 、https://www.cnblogs.com/gaosong-shuhong/p/10517342.html
+参考、
+- https://www.cnblogs.com/tzm-001/p/10382534.html 
+- https://www.cnblogs.com/gaosong-shuhong/p/10517342.html
 
 ## 单元测试
-> 参考 https://cn.vuejs.org/v2/guide/unit-testing.html 
+`npm run test:unit` 
 
-## 自动化测试
-> 参考 https://zhuanlan.zhihu.com/p/48758013
+代码规范格式验证 : `npm run test:ci`
 
-## element ui
+
+## Build
+
+`npm run build:stage` 
+
+`npm run build:prod` 

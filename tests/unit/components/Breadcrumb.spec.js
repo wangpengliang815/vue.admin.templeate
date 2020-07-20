@@ -10,10 +10,10 @@ localVue.use(ElementUI)
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'main',
     children: [{
-      path: 'home',
-      name: 'home'
+      path: 'main',
+      name: 'main'
     }]
   },
   {
@@ -55,8 +55,8 @@ describe('Breadcrumb.vue', () => {
     localVue,
     router
   })
-  it('home', () => {
-    router.push('/home')
+  it('main', () => {
+    router.push('/main')
     const len = wrapper.findAll('.el-breadcrumb__inner').length
     expect(len).toBe(1)
   })
